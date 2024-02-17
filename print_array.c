@@ -5,9 +5,9 @@
  * @array: The given array
  * @size: size of the array
  */
-void print_array(int array[], int size)
+void print_array(const int *array, size_t size)
 {
-	int i;
+	size_t i;
 
 	for (i = 0; i < size; i++)
 		printf("%d ", array[i]);
