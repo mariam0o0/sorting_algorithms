@@ -10,7 +10,7 @@
 int partition(int *array, ssize_t start, ssize_t end, size_t size)
 {
 	int pivot, temp;
-	size_t i, j;
+	ssize_t i, j;
 
 	pivot = array[end];
 	i = start;
